@@ -17,7 +17,7 @@
 
 ## Daftar Isi
 
-1. [Analisa File Dengan Wireshark](#analisa-http-cap)
+1. [Analisa File http.cap Dengan Wireshark](#analisa-http-cap)
 2. [Deskripsi Gambar Types of Data Deliveries](#deskripsi-gambar)
 3. [Tahapan Komunikasi Menggunakan TCP](#rangkuman-tahapan-komunikasi-tcp)
 4. [Referensi](#referensi)

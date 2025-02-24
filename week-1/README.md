@@ -24,30 +24,35 @@
 
 ## Analisa File http.cap Dengan Wireshark
 
-#### Versi HTTP yang digunakan
+### Versi HTTP yang digunakan
 
 ![App Screenshot](img/http-version.png)
+
 <p>Versi HTTP yang digunakan dalam proses ini adalah HTTP/1.1, seperti terlihat pada request (GET /download.html HTTP/1.1) dan respons (HTTP/1.1 200 OK).<p>
 
-#### IP address dari client dan server
+### IP address dari client dan server
 
 ![App Screenshot](img/ip-address.png)
+
 IP address HTTP client : 145.254.160.237<br>
 IP address HTTP server : 65.208.228.223
 
-#### Waktu dari client mengirimkan HTTP request
+### Waktu dari client mengirimkan HTTP request
 
 ![App Screenshot](img/http-request.png)
+
 HTTP request dikirim oleh client (145.254.160.237) ke server (65.208.228.223) pada waktu ke 0.911310 detik.
 
-#### Waktu dari server mengirimkan HTTP respons
+### Waktu dari server mengirimkan HTTP respons
 
 ![App Screenshot](img/http-respons.png)
+
 HTTP server dikirim oleh server (65.208.228.223) ke client (145.254.160.237) pada waktu ke 3.955688 detik.
 
-#### Durasi waktu yang dibutuhkan saat client mengirimkan request hingga server mengirimkan respons
+### Durasi waktu yang dibutuhkan saat client mengirimkan request hingga server mengirimkan respons
 
 ![App Screenshot](img/durasi-waktu.png)
+
 Waktu untuk menyelesaikan HTTP respons adalah `4.846969 - 3.955688 = 0.891281` detik.
 
 ## Deskripsi Gambar Types of Data Deliveries

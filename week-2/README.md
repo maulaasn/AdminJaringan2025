@@ -32,13 +32,13 @@ Perintah `sudo dhclient -v` digunakan untuk memperbarui konfigurasi jaringan sec
 
 ![App Screenshot](img/install-git.png)
 
-Command `sudo appt install git` digunakan untuk menginstall git pada komputer lab.
+Command `sudo apt install git` digunakan untuk menginstall git pada komputer lab.
 
 ![App Screenshot](img/git-clone.jpeg)
 
-Kemudian clone menggunakan git clone dengan cara paste link github dibawah ini:
+Kemudian clone menggunakan git clone dengan cara copy paste link github dibawah ini:
 
-`https://github.com/ferryastika/unix-and-linux-sysadmin-notes.git`
+<pre><code>https://github.com/ferryastika/unix-and-linux-sysadmin-notes.git</code></pre>
 
 #### Download VirtualBox Linux
 
@@ -50,7 +50,7 @@ Klik pada bagian Linux distributions.
 
 Kemudian pilih Debian 12, lalu klik untuk mendownload.
 
-Jika proses download sudah selesai, maka file VirtualBox akan masuk pada folder Downloads.
+Setelah proses unduhan selesai, file VirtualBox akan tersimpan di folder Downloads.
 
 ![App Screenshot](img/folder-download.jpeg)
 
@@ -62,7 +62,7 @@ ISO yang akan digunakan dalam VirtualBox.
 
 #### Proses Instalasi VirtualBox
 
-Pada folder Downloads tadi, klik kanan file VirtualBox lalu pilih Open Terminal. Jalankan dengan perintah dibawah ini untuk melalukan instalasi VirtualBox.
+Di folder Downloads, klik kanan pada file VirtualBox, lalu pilih Open Terminal. Kemudian, jalankan perintah berikut untuk memulai instalasi VirtualBox.
 
 ![App Screenshot](img/install-virtualbox.png)
 
@@ -82,45 +82,45 @@ Error `Can't enumerate USB devices` di VirtualBox terjadi karena sistem gagal me
 
 ![App Screenshot](img/sudo-usermod.jpeg)
 
-Jika menggunakan Linux, user perlu memiliki izin untuk mengakses perangkat USB di VirtualBox. Maka jalankan perintah diatas di terminal, lalu restart sistem agar perubahan diterapkan.
+Jika menggunakan Linux, user perlu memiliki izin untuk mengakses perangkat USB di VirtualBox. Maka jalankan perintah `sudo usermod -aG vboxusers $USER` di terminal, lalu restart sistem agar perubahan diterapkan.
 
 #### Menjalankan New Virtual Machine
 
-Jika tampilan sudah seperti ini, maka akan lanjut ke langkah berikutnya.
+Jika tampilan sudah sesuai seperti dibawah ini, maka proses akan dilanjutkan ke langkah berikutnya.
 
 ![App Screenshot](img/tampilan-awal.jpeg)
 
-#### Langkah - langkah
+#### Langkah - Langkah
 
 ![App Screenshot](img/langkah-1.png)
 
-Sesuaikan Name and Operating System seperti gambar diatas. Jika sudah download file ISO Debian 12 tadi, berikan lokasi file ISO tersebut pada kolom ISO Image.
+Sesuaikan nama dan OS seperti pada gambar di atas. Jika file ISO Debian 12 sudah diunduh, masukkan lokasinya pada kolom ISO Image.
 
 ![App Screenshot](img/langkah-2.png)
 
-Melakukan setting username dan password yang sama dengan nama `student`.
+Melakukan setting username dan password dengan menggunakan nama `student`.
 
 ![App Screenshot](img/langkah-3.png)
 
-Setting up RAM sebesar 2 GB dan Proccessors menggunakan 2 CPU.
+Setup RAM menjadi 2 GB dan menggunakan 2 CPU untuk prosesor.
 
 ![App Screenshot](img/langkah-4.png)
 
-Menggunakan 10 GB untuk alokasi memory pada HDD.
+Mengalokasikan 10 GB ruang penyimpanan pada HDD (Hard Disk Drive).
 
 ![App Screenshot](img/langkah-5.png)
 
-Jika sudah sesuai dengan spesifikasi yang diinginkan maka lanjut klik Finish untuk memproses instalasi.
+Jika spesifikasi sudah sesuai, klik Finish untuk melanjutkan proses instalasi.
 
 #### Error Pada Kernel
 
-Setelah mengklik Finish, muncul pop up error seperti dibawah ini.
+Setelah mengklik Finish, muncul pop-up error seperti yang ditampilkan di bawah ini.
 
 ![App Screenshot](img/error-kernel.png)
 
 Error `Kernel driver not installed (rc=-1908)` terjadi karena VirtualBox tidak dapat menemukan atau memuat driver kernel (vboxdrv) yang diperlukan. Penyebabnya bisa karena Secure Boot masih aktif, modul kernel belum terinstal, atau VirtualBox perlu dikonfigurasi ulang setelah pembaruan sistem.
 
-Dari problem diatas, dapat dijalankan dengan perintah berikut untuk memuat ulang driver kernel.
+Untuk mengatasi masalah diatas, jalankan perintah berikut guna memuat ulang driver kernel.
 
 ![App Screenshot](img/solving-error-1.png)
 

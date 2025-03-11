@@ -56,63 +56,63 @@ Samba adalah perangkat lunak open-source yang memungkinkan berbagi file dan prin
 
 1. Konfigurasi pada samba
 
-![App Screenshot](img/sudo-nano-smb-conf.png)
+   ![App Screenshot](img/sudo-nano-smb-conf.png)
 
-![App Screenshot](img/konfigurasi-samba-1.png)
+   ![App Screenshot](img/konfigurasi-samba-1.png)
 
-![App Screenshot](img/konfigurasi-samba-2.png)
+   ![App Screenshot](img/konfigurasi-samba-2.png)
 
-![App Screenshot](img/konfigurasi-samba-3.png)
+   ![App Screenshot](img/konfigurasi-samba-3.png)
 
 2. Membuat file di direktori /home/share
 
-![App Screenshot](img/buat-file-home-share.png)
+   ![App Screenshot](img/buat-file-home-share.png)
 
-![App Screenshot](img/nano-file-maula.png)
+   ![App Screenshot](img/nano-file-maula.png)
 
 3. Percobaan akses dari host
 
-![App Screenshot](img/akses-host-share-1.png)
+   ![App Screenshot](img/akses-host-share-1.png)
 
-![App Screenshot](img/akses-host-share-2.png)
+   ![App Screenshot](img/akses-host-share-2.png)
 
 4. Percobaan akses dari komputer lain
 
-![App Screenshot](img/akses-komputer-lain-share.jpeg)
+   ![App Screenshot](img/akses-komputer-lain-share.jpeg)
 
 #### Percobaan Limited Share Folder
 
 1. Konfigurasi pada Samba
 
-![App Screenshot](img/sudo-nano-smb-conf.png)
+   ![App Screenshot](img/sudo-nano-smb-conf.png)
 
-![App Screenshot](img/konfigurasi-samba-share01.png)
+   ![App Screenshot](img/konfigurasi-samba-share01.png)
 
 2. Membuat file untuk dibagikan di direktori /home/share01
 
-![App Screenshot](img/buat-file-home-share01.png)
+   ![App Screenshot](img/buat-file-home-share01.png)
 
 3. Menambahkan user baru
 
-![App Screenshot](img/adduser-debian.png)
+   ![App Screenshot](img/adduser-debian.png)
 
 4. Menambahkan user baru ke grup “maulagroup" dan user valid baru ke samba
 
-![App Screenshot](img/grup-maulagroup.png)
+   ![App Screenshot](img/grup-maulagroup.png)
 
 5. Percobaan akses dari host
 
-![App Screenshot](img/akses-host-share01-1.png)
+   ![App Screenshot](img/akses-host-share01-1.png)
 
-![App Screenshot](img/akses-host-share01-2.png)
+   ![App Screenshot](img/akses-host-share01-2.png)
 
-![App Screenshot](img/akses-host-share01-3.png)
+   ![App Screenshot](img/akses-host-share01-3.png)
 
 6. Percobaan akses dari komputer lain
 
-![App Screenshot](img/akses-komputer-lain-share01-1.jpeg)
+   ![App Screenshot](img/akses-komputer-lain-share01-1.jpeg)
 
-![App Screenshot](img/akses-komputer-lain-share01-2.jpeg)
+   ![App Screenshot](img/akses-komputer-lain-share01-2.jpeg)
 
 #### Percobaan akses menggunakan CLI dan File Manager
 
@@ -208,4 +208,4 @@ Dpkg biasanya dijalankan melalui terminal dan dapat digunakan tanpa koneksi inte
 
 ## Kesimpulan
 
-Instalasi dan konfigurasi NTP (Network Time Protocol) diperlukan untuk sinkronisasi waktu yang akurat pada sistem. User dapat menggunakan Samba untuk berbagi file dan printer antara Linux dan Windows, sehingga integrasi jaringan menjadi lebih mudah. Dalam package management, user dapat menginstal, memperbarui, dan menghapus perangkat lunak dengan berbagai alat seperti APT, Synaptic, GDebi, Dpkg, dan Discover. APT secara otomatis menangani dependensi, Synaptic menawarkan antarmuka grafis yang intuitif, GDebi mempermudah instalasi paket .deb, Dpkg mendukung pengelolaan paket secara langsung melalui terminal, dan Discover memberikan pengalaman user yang lebih visual dalam lingkungan KDE. Dengan memahami fungsi masing-masing alat, user dapat mengelola sistem Debian dengan lebih efisien.
+Instalasi dan konfigurasi NTP (Network Time Protocol) diperlukan untuk sinkronisasi waktu yang akurat pada sistem. User dapat menggunakan Samba untuk berbagi file dan printer antara Linux dan Windows, sehingga integrasi jaringan menjadi lebih mudah. Dalam package management, user dapat menginstal, memperbarui, dan menghapus perangkat lunak dengan berbagai alat seperti APT, Synaptic, GDebi, Dpkg, dan Discover. APT secara otomatis menangani dependensi, Synaptic menyediakan antarmuka grafis (GUI) yang intuitif, GDebi mempermudah instalasi paket **.deb**, Dpkg mendukung pengelolaan paket secara langsung melalui terminal, dan Discover memberikan pengalaman user yang lebih visual dalam lingkungan KDE. Dengan memahami fungsi masing-masing alat, user dapat mengelola sistem Debian dengan lebih efisien.

@@ -163,6 +163,7 @@ Perintah ini membutuhkan hak akses root karena berpengaruh pada sistem. Untuk ma
 - apt-mark showmanual → Menampilkan paket yang diinstal secara manual.
 
 **Perintah All-in-One untuk Pemeliharaan Sistem**
+
 Untuk memperbarui repositori, menginstal pembaruan, dan membersihkan cache dalam satu perintah, gunakan:
 
 ```bash

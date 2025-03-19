@@ -24,11 +24,11 @@
 
 ## Ekosistem Internet dan DNS Concept
 
-### Cek IP address
+#### Cek IP address
 
 ![App Screenshot](img/sudo-dhclient-v.jpeg)
 
-### File `/etc/nsswitch.conf`
+#### File `/etc/nsswitch.conf`
 
 ![App Screenshot](img/less-etc-nsswitch-conf.png)
 
@@ -42,7 +42,7 @@ Pada Linux Debian dan sistem Linux lainnya, file `/etc/nsswitch.conf` berfungsi 
 
 - **networks, protocols, services, ethers, dan rpc**: Berfungsi untuk mengambil informasi yang berkaitan dengan jaringan, protokol, layanan, serta berbagai konfigurasi lainnya dalam sistem.
 
-### File `/etc/hosts`
+#### File `/etc/hosts`
 
 ![App Screenshot](img/etc-hosts.png)
 
@@ -62,7 +62,7 @@ Untuk menetapkan alamat IP dalam file `/etc/hosts` sehingga komputer dapat menge
 
    ![App Screenshot](img/ping-langsung-angel.png)
 
-### File `/etc/resolv.conf`
+#### File `/etc/resolv.conf`
 
 ![App Screenshot](img/less-etc-resolv-conf.png)
 
@@ -76,7 +76,7 @@ Untuk menetapkan alamat IP dalam file `/etc/hosts` sehingga komputer dapat menge
 
 Konfigurasi dalam `/etc/resolv.conf` memengaruhi proses resolusi domain melalui dua direktif utama. Direktif `search pens.ac.id` memungkinkan sistem menambahkan domain `pens.ac.id` ke nama host yang tidak lengkap, sehingga saat menjalankan perintah `ping www`, sistem akan mencoba `ping www.pens.ac.id`. Sementara itu, `nameserver 202.9.85.4` dan `nameserver 202.9.85.3` digunakan jika domain tidak ditemukan secara lokal, di mana sistem akan mengandalkan server DNS tersebut untuk menerjemahkan nama domain menjadi alamat IP.
 
-### Root Hints - `/usr/share/dns/root.hints`
+#### Root Hints - `/usr/share/dns/root.hints`
 
 ![App Screenshot](img/root-hints.jpeg)
 

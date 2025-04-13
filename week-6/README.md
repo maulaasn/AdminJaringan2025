@@ -178,7 +178,7 @@ VM 2 dikonfigurasi dengan alamat IP yang berada dalam satu jaringan dengan inter
 
 ![App Screenshot](img/tes-akses-file-dari-samba.png)
 
-Jika folder Share sudah muncul di tampilan file manager client seperti yang terlihat pada gambar, itu berarti konfigurasi Samba di server sudah berjalan dengan benar dan client berhasil mengakses resource sharing yang disediakan oleh server.
+Jika folder **Share** sudah muncul di tampilan file manager client seperti yang terlihat pada gambar, itu berarti konfigurasi Samba di server sudah berjalan dengan benar dan client berhasil mengakses resource sharing yang disediakan oleh server.
 
 #### Cek DNS Server (Client) menggunakan nama domain
 
@@ -194,4 +194,4 @@ Hasil perintah `dig -x 192.168.3.1` menunjukkan bahwa IP tersebut berhasil di-re
 
 ## Kesimpulan
 
-Dalam praktikum ini, saya berhasil mengkonfigurasi dua Virtual Machine, yaitu VM1 sebagai server dan VM2 sebagai client. Saya mengatur server dengan dua adapter jaringan (Bridged dan Internal), kemudian mengaktifkan fitur IP forwarding agar server dapat berfungsi sebagai gateway. Saya juga memberikan IP statis pada masing-masing VM dalam jaringan yang sama agar keduanya dapat saling terhubung. Selain itu, saya menggunakan SSH untuk mengakses server dari client secara remote. Praktikum ini membantu saya memahami cara membangun koneksi jaringan lokal serta mengelola komunikasi antar perangkat virtual secara langsung.
+Dalam praktikum ini, saya berhasil mengkonfigurasi dua Virtual Machine, yaitu VM1 sebagai server dan VM2 sebagai client. Saya mengatur server dengan dua adapter jaringan (Bridged Adapter dan Internal Network), kemudian mengaktifkan fitur IP forwarding agar server dapat berfungsi sebagai gateway. Saya juga memberikan IP statis pada masing-masing VM dalam jaringan yang sama agar keduanya dapat saling terhubung. Selain itu, saya menggunakan SSH untuk mengakses server dari client secara remote. Praktikum ini membantu saya memahami cara membangun koneksi jaringan lokal serta mengelola komunikasi antar perangkat virtual secara langsung.

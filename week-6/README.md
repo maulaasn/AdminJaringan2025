@@ -172,7 +172,15 @@ VM 2 dikonfigurasi dengan alamat IP yang berada dalam satu jaringan dengan inter
 
 #### Cek koneksi dengan melakukan ping ke gateway
 
-![App Screenshot](img/pink-ke-gateway.png)
+![App Screenshot](img/ping-gateway.png)
+
+#### Cek koneksi dengan melakukan ping ke DNS server
+
+![App Screenshot](img/ping-dns-server.png)
+
+#### Cek koneksi dengan melakukan ping ke domain lokal
+
+![App Screenshot](img/ping-kelompok3-home.png)
 
 #### Tes akses folder dari Samba (Client)
 

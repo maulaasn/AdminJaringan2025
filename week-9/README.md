@@ -32,7 +32,7 @@
 ## Tugas
  ![App Screenshot](img/tugas.jpg)
 
- <img src="img/topologi.drawio.png" alt="drawing" width="600"/>
+ ![App Screenshot](img/topologi.drawio.png)
 
 ## Percobaan
 

@@ -160,7 +160,7 @@ Untuk konfigurasi zone file, masuk di `/etc/bind/db.kelompok3.home` dan `/etc/bi
   
     ![App Screenshot](img/dig_domain.png)
 
-    IP Address `192.168.3.10` terdaftar sebagai host untuk layanan **web (www)** dan **nameserver (ns)** dari domain lokal `kelompok3.home`.
+    IP Address `192.168.3.10` terdaftar sebagai host untuk layanan **web (www)** dan **nameserver (ns)** dari domain lokal `kelompok3.home`
 
 - Testing dengan cara mencari alamat IP berdasarkan nama domain (hostname).  
   
@@ -202,6 +202,6 @@ Untuk konfigurasi zone file, masuk di `/etc/bind/db.kelompok3.home` dan `/etc/bi
     
     ![App Screenshot](img/systemctl_apache2.png)
 
-    Setelah konfigurasi berhasil direload, domain yang telah dikonfigurasi sebelumnya dapat diuji melalui browser.
+    Setelah proses reload konfigurasi berhasil, pengujian dapat dilakukan dengan mengakses domain melalui browser.
 
     ![App Screenshot](img/berhasil.png)

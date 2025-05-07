@@ -48,7 +48,7 @@
 
     Jika sudah berhasil akan muncul detail seperti gambar diatas.
 
-- Cek IP yang telah di set menggunakan perintah `ip -a`
+- Cek IP yang telah di set menggunakan perintah `ip a`
 
     ![App Screenshot](img/3.png)
 
@@ -72,7 +72,7 @@
 
     ![App Screenshot](img/7.png)
 
-    Setelah itu, lakukan `apt update` sebagai root. Dan update berhasil dilakukan.
+    Setelah itu, lakukan `apt update` sebagai root. Update berhasil dilakukan.
 
 ### B. Konfigurasi Jaringan Internal
     

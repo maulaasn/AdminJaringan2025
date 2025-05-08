@@ -205,3 +205,5 @@ Untuk konfigurasi zone file, masuk di `/etc/bind/db.kelompok3.home` dan `/etc/bi
     Setelah proses reload konfigurasi berhasil, pengujian dapat dilakukan dengan mengakses domain melalui browser.
 
     ![App Screenshot](img/berhasil.png)
+
+    ![App Screenshot](img/web_server_k3.png)

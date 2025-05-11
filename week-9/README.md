@@ -23,11 +23,10 @@
   - [B. Konfigurasi Jaringan Internal](#b-konfigurasi-jaringan-internal)
     - [Konfigurasi Zone File](#konfigurasi-zone-file)
     - [Konfigurasi DNS Client untuk menggunakan DNS Server sendiri](#konfigurasi-dns-client-untuk-menggunakan-dns-server-sendiri)
-    - [DNS Query menggunakan DiG (Domain Information Groper) untuk Forward Lookup.](#dns-query-menggunakan-dig-domain-information-groper-untuk-forward-lookup)
-- [C. Konfigurasi Web Server](#c-konfigurasi-web-server)
+    - [DNS Query menggunakan DiG (Domain Information Groper) untuk Forward Lookup](#dns-query-menggunakan-dig-domain-information-groper-untuk-forward-lookup)
+  - [C. Konfigurasi Web Server](#c-konfigurasi-web-server)
     - [Instalasi Apache2](#instalasi-apache2)
     - [Konfigurasi Apache2](#konfigurasi-apache2)
-
 
 ## Tugas
  ![App Screenshot](img/tugas.jpg)
@@ -206,4 +205,4 @@ Untuk konfigurasi zone file, masuk di `/etc/bind/db.kelompok3.home` dan `/etc/bi
 
     ![App Screenshot](img/berhasil.png)
 
-    ![App Screenshot](img/web_server_k3.png)
+    ![App Screenshot](img/web_server_kelompok3.png)

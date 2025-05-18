@@ -225,7 +225,7 @@ Kerugian Email:
 
    ![App Screenshot](img/AddMailUserAccounts/3.png)
 
-5. Login sebagai user `student2 `dan masukkan password 
+5. Login sebagai user `student2` dan masukkan password 
 
     ``` bash
     su- student2

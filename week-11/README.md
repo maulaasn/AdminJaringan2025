@@ -159,7 +159,7 @@ Kerugian Email:
 
    ![App Screenshot](img/InstallPostfix/17.png)
 
-   Jalan command newaliases dan restart postfix
+   Jalankan perintah newaliases dan lakukan restart postfix
 
    ![App Screenshot](img/InstallPostfix/18.png)
 

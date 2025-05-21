@@ -48,17 +48,13 @@ Untuk memastikan koneksi antar domain lain dapat berjalan dengan baik serta pros
 
 ![App Screenshot](img/kelompok3_home_lan.png)
 
-**NB** : *Gambar tersebut terdapat kesalahan yakni hostname mail belum ditambahkan pada saat pengambilan tangkapan layar (capture). Namun, sebenarnya penambahan hostname mail telah dilakukan dalam konfigurasi DNS.*
+**Note** : *Gambar tersebut terdapat kesalahan yakni hostname mail belum ditambahkan pada saat pengambilan tangkapan layar (capture). Namun, sebenarnya penambahan hostname mail telah dilakukan dalam konfigurasi DNS.*
 
-Berdasarkan gambar file konfigurasi zona DNS (`/etc/bind/kelompok3.home.lan`), berikut adalah penjelasan mengenai istilah penting yang muncul:
+Berdasarkan gambar file konfigurasi zona DNS (`/etc/bind/kelompok3.home.lan`), berikut adalah penjelasan mengenai istilah-istilah penting yang terdapat dalam konfigurasi tersebut:
 
-- IN (Internet)
+- `IN (Internet)` merupakan singkatan dari Internet dan digunakan untuk menunjukkan kelas dari record DNS.
 
-  IN merupakan singkatan dari Internet dan digunakan untuk menunjukkan kelas dari record DNS.
-
-- SOA (Start of Authority)
-
-  SOA adalah record pertama dan paling penting dalam sebuah file zona DNS. Record ini menyatakan bahwa zona DNS tersebut diotorisasi oleh domain yang bersangkutan, serta memuat informasi administratif terkait zona tersebut.
+- `SOA (Start of Authority)` adalah record pertama dan paling penting dalam sebuah file zona DNS. Record ini menyatakan bahwa zona DNS tersebut diotorisasi oleh domain yang bersangkutan, serta memuat informasi administratif terkait zona tersebut.
 
 - `Refresh`, `Retry`, `Expire`, dan `Minimum TTL` adalah parameter untuk pengelolaan replikasi DNS antar server.
 
@@ -82,4 +78,4 @@ Hasil dari percobaan menunjukkan bahwa email berhasil terkirim dan diterima oleh
 
 ### Referensi
 
-- [Mail Server Configuration](https://www.server-world.info/en/note?os=Debian_12&p=mail&f=1)
+- [Mail Server Configuration](https://www.server-world.info/en/note?os=Debian_12&p=mail&f=4)
